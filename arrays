@@ -1,0 +1,14 @@
+puts "Please give me a list of words, once you are done press enter on an empty line"
+
+words = []
+
+while true
+  word = gets.chomp
+  if word == ''
+  break
+  end 
+  
+  words << word
+end
+
+puts words.sort
