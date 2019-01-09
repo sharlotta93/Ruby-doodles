@@ -16,3 +16,20 @@ puts "Take one down and pass it around, " + "#{num}" + " bottles of beer on the 
   break
  end
 end
+
+----------
+
+while true
+you = gets.chomp 
+ if 
+  you == "BYE"
+  puts "BYE HONEY"
+ break
+ end
+ if 
+you == you.downcase
+puts "HUH?! SPEAK UP SONNY!"
+ else 
+puts "NO, NOT SINCE " + (rand(1930..1950)).to_s + "!"
+  end
+end 
